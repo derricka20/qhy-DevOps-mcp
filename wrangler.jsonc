@@ -74,7 +74,9 @@
     ],
   },
   "observability": {
-    "enabled": true,
+    "enabled": true, 
+    "head_sampling_rate": 1 // optional. default = 1.
   },
+},
   "assets": { "directory": "./static/", "binding": "ASSETS" },
 }
